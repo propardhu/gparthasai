@@ -104,16 +104,59 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"SSL auto-renew inside Nginx",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/ssl-auto-renew-inside-nginx-docker-container-fd0fda1df544"
       },
       {
-        "title":"",
-        "category":"",
-        "image":"",
-        "url":""
+        "title":"Docker Commands",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/docker-commands-3ad7daa86070"
+      },
+      {
+        "title":"Sorting Algorithms",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/sorting-algorithms-17d619529ba0"
+      },
+      {
+        "title":"TagCloud in HTML",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/tagcloud-in-html-df7ab276aa21"
+      },
+      {
+        "title":"Linear Data structures",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/linear-data-structures-c8976e6d404b"
+      },
+      {
+        "title":"Precache assets using wordbox",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/precache-assets-using-wordbox-vue-js-pwa-and-service-worker-js-injectmanifest-23a56b562c61"
+      },
+      {
+        "title":"Configure Nginx Reverse Proxy for Kibana",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/configure-nginx-reverse-proxy-for-kibana-dockercompose-de35ac8d8d79"
+      },
+      {
+        "title":"Containerize Python Application(Flask) using Docker",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/containerize-python-application-flask-using-docker-165ce580310e"
+      },
+      {
+        "title":"Identity &Access Management Tools (Open Source)",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/identity-access-management-tools-open-source-b29038d993dc"
+      },
+      {
+        "title":"Data Visualization(MongoDB) -Metabase",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/data-visualization-metabase-open-source-ca3eeab276b5"
+      },
+      {
+        "title":"Run python file via Docker-Compose",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/run-python-file-via-docker-compose-65217a809808"
       }
     ]
   }
