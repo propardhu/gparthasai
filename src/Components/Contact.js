@@ -76,8 +76,8 @@ class Contact extends Component {
                       Message <span className="required">*</span>
                     </label>
                     <textarea
-                      cols="50"
-                      rows="15"
+                      cols="20"
+                      rows="10"
                       id="contactMessage"
                       name="contactMessage"
                     ></textarea>
@@ -103,7 +103,7 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>I'm on</h4>
                 <p className="address">
                   {name}<br/>
                   <span>{phone}</span><br/>
