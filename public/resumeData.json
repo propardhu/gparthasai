@@ -1,0 +1,120 @@
+{
+  "main": {
+    "name":"G.Partha Sai",
+    "description":"description",
+    "image":"profilepic.jpg",
+    "bio":"bio",
+    "contactmessage":"contactmessage",
+    "email": "guttikondaparthasai@gmail.com",
+    "phone": "+91-8500541540",
+    "website": "https://parthasaisresume.netlify.app/",
+    "resumedownload":"https://parthasaisresume.netlify.app/",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/partha-sai/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/propardhu",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Complex problem-solver with an analytical and driven mindset. Dedicated to achieving demanding development objectives according to tight schedules while producing impeccable code. Logical and results-driven Web Developer dedicated to building and optimizing user- focused websites for customers with various business objectives. Judicious and creative when crafting effective websites, apps, and platforms to propel competitive advantage and revenue growth. Technically proficient and analytical problem solver with a calm and focused demeanor.Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals.",
+    "education":[
+      {
+        "school":"Sreenidhi Institude of Science and Technology",
+        "degree":"Bachelor of Technology Computer Science",
+        "graduated":"April 2022",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Vantashala",
+        "title":"Full Stack web Developer",
+        "years":"May 2020 - Present",
+        "description":"Created RESTful APIs for increased scalability of the application(using spring boot java) Worked on Microservice Architecture. NGINX load balancer to manage incoming traffic."
+      },
+      {
+        "company":"Smartbridge",
+        "title":"Machine Learning Intern",
+        "years":"March 2020 - June 2018",
+        "description":"Prototyped machine learning applications and quickly determined application viability. Created customized applications to make critical predictions, automate reasoning and decisions, and calculate optimization algorithms. Composed production-grade code to convert machine learning models into services and pipelines to be consumed at web scale. During the internship, I got a clear idea of the Tensorflow framework how we can use it for production env."
+      },
+      {
+        "company":"A4 Data",
+        "title":"Automaintion testing intern",
+        "years":"May 2020 - july 2020",
+        "description":"Develop and configure test automation networks and execute stability and performance tests. worked spring frame work selenium JAVA"
+      },
+      {
+        "company":"Supero Software",
+        "title":"UI intern",
+        "years":"May 2020 - september 2020",
+        "description":"Develop UIs with JSP, JavaScript, HTML and CSS"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      },
+      {
+        "name":"HTML",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"70%"
+      },
+      {
+        "name":"TypeScript",
+        "level":"80%"
+      },
+      {
+        "name":"RESTful API interfaces(JSON)",
+        "level":"55%"
+      },
+      {
+        "name":"Node.JS",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      }
+    ]
+  }
+}
