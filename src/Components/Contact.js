@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import { Slide } from "react-reveal";
 
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const name = this.props.data.name;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const message = this.props.data.contactmessage;
 
     return (
       <section id="contact">
