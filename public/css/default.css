@@ -727,10 +727,10 @@ properly.
 	}
    .column, .columns {
 	   width: auto !important;
-	   float: none;
+	   /* float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      padding: 0 30px;
+      padding: 0 30px; */
    }
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
