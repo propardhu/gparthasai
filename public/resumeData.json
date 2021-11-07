@@ -19,6 +19,11 @@
         "name":"github",
         "url":"https://github.com/propardhu",
         "className":"fa fa-github"
+      },
+      {
+        "name":"whatsapp",
+        "url":"https://wa.me/+918500541540?text=Hi",
+        "className":"fa fa-whatsapp"
       }
     ]
   },
