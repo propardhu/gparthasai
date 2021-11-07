@@ -11,7 +11,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="ball" color="#89ABE3FF"  bg={true} />
+        <ParticlesBg type="lines" color="#B2BEB5"  bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -42,7 +42,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                blogs
               </a>
             </li>
 
@@ -60,7 +60,7 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>{description}.<br />who laughs most, learns best.</h3>
             </Fade>
             <hr />
           </div>
