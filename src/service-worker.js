@@ -64,15 +64,15 @@ registerRoute(
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
 self.addEventListener('message', (event) => {
-  console.log("new app avaliable");
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    caches.keys().then(function(names) {
-      for (let name of names)
-          caches.delete(name);
-  });
-  window.location.reload(true);
     self.skipWaiting();
-  }
+});
+
+self.addEventListener('updatefound', () => {
+  console.log('Service Worker update detected!');
+  self.skipWaiting();
+});
+self.addEventListener('install', function() {
+  self.skipWaiting();
 });
 
 // Any other custom service worker logic can go here.
