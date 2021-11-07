@@ -726,11 +726,11 @@ properly.
       padding: 0;
 	}
    .column, .columns {
-	   width: auto;
+	   width: auto ! important;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      /* padding: 0 30px; */
+           padding: 0 30px;
    }
    .item-wrap {
       width: 250%;
