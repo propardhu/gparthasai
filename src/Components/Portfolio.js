@@ -11,7 +11,7 @@ class Portfolio extends Component {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
+        <div key={id++} className="portfolio-item">
           <div className="item-wrap">
             <Zmage alt={projects.title} src={projectImage} />
             <a target="_blank" rel="noreferrer" href={projects.url} style={{ textAlign: "center" }}>{projects.title}</a>
@@ -27,7 +27,10 @@ class Portfolio extends Component {
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Articles.</h1>
 
-              <div>
+              <div
+                id="portfolio-wrapper"
+                className="bgrid-quarters s-bgrid-thirds cf"
+              >
                 {projects}
               </div>
             </div>
