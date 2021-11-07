@@ -11,7 +11,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="lines" color="#B2BEB5"  bg={true} />
+        <ParticlesBg type="cobweb" color="#B2BEB5"  bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
