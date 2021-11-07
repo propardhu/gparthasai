@@ -11,7 +11,7 @@ class Portfolio extends Component {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
-        <div key={id++} className="portfolio-item">
+        <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
             <Zmage alt={projects.title} src={projectImage} />
             <a target="_blank" rel="noreferrer" href={projects.url} style={{ textAlign: "center" }}>{projects.title}</a>
@@ -24,7 +24,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <Fade left duration={1000} distance="40px">
           <div className="row">
-            <div className="twelve columns collapsed">
+            <div className="twelve collapsed">
               <h1>Check Out Some of My Articles.</h1>
 
               <div
