@@ -726,11 +726,19 @@ properly.
       padding: 0;
 	}
    .column, .columns {
-	   width: auto !important;
+	   width: auto;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      padding: 0 30px;
+      /* padding: 0 30px; */
+   }
+   .item-wrap {
+      width: 250%;
+      margin: 0;
+      margin-right: 30%;
+   }
+   .portfolio-item{
+      margin-left: 20%;
    }
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
