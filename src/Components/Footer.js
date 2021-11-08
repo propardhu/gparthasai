@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
-import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp, BsMedium } from "react-icons/bs";
 
 class Footer extends Component {
   render() {
@@ -25,6 +25,11 @@ class Footer extends Component {
                 <li>
                   <a target="_blank" rel="noreferrer" href="https://wa.me/+918500541540?text=Hi">
                     <BsWhatsapp />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noreferrer" href="https://guttikondaparthasai.medium.com/">
+                    <BsMedium />
                   </a>
                 </li>
               </ul>
