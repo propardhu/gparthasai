@@ -4,30 +4,39 @@ import { Slide } from "react-reveal";
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-
+    const d1 = this.props.data.displayGIF;
+    let key = 0;
     return (
       <section id="contact">
         <div className="row">
-          <Slide left duration={1000}>
+        {d1.map((object, i) => <Slide key={key++} duration={1000}>
             <div className="six columns">
             <img
-                src="images/tk.gif"
-                alt="Nordic Giant Profile Pic"
+                src={object.src}
+                alt={object.alt}
+              />
+            </div>
+          </Slide>)}
+          {/* <Slide left duration={1000}>
+            <div className="six columns">
+            <img
+                src={d1[0].src}
+                alt={d1[0].alt}
               />
             </div>
           </Slide>
 
           <Slide right duration={1000}>
-            <aside className="six columns footer-widgets">
+            <aside className="six columns footer-widgets"> 
               <div className="widget widget_contact">
               <img
-                src="images/bye.gif"
-                alt="Nordic Giant Profile Pic"
+                src={d1[1].src}
+                alt={d1[1].alt}
               />
               </div>
 
             </aside>
-          </Slide>
+          </Slide> */}
         </div>
       </section>
     );
