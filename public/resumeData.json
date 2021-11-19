@@ -13,17 +13,32 @@
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/partha-sai/",
-        "className":"fa fa-linkedin"
+        "className":"BsLinkedin"
       },
       {
         "name":"github",
         "url":"https://github.com/propardhu",
-        "className":"fa fa-github"
+        "className":"BsGithub"
       },
       {
         "name":"whatsapp",
         "url":"https://wa.me/+918500541540?text=Hi",
-        "className":"fa fa-whatsapp"
+        "className":"BsWhatsapp"
+      },
+      {
+        "name":"medium",
+        "url":"https://guttikondaparthasai.medium.com/",
+        "className":"BsMedium"
+      }
+    ],
+    "displayGIF" : [
+      {
+        "src":"images/tk.gif",
+        "alt":"Pardhu image"
+      },
+      {
+        "src":"images/bye.gif",
+        "alt":"Pardhu image"
       }
     ]
   },
