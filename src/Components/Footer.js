@@ -5,6 +5,18 @@ import { BsGithub, BsLinkedin, BsWhatsapp, BsMedium } from "react-icons/bs";
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
+    let id = 0;
+    const social = this.props.data.social.map(function (s) {
+      return (
+        <li key={id++}>
+          <a target="_blank" rel="noreferrer" href={s.url}>
+            {
+              s.name === "linkedin"? <BsLinkedin /> : s.name === "github"? <BsGithub /> : s.name === "whatsapp" ? <BsWhatsapp /> : <BsMedium /> 
+            }
+          </a>
+        </li>
+      );
+    });
 
     return (
       <footer>
@@ -12,27 +24,9 @@ class Footer extends Component {
           <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">
-                <li>
-                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/partha-sai/">
-                    <BsLinkedin />
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" rel="noreferrer" href="https://github.com/propardhu">
-                    <BsGithub />
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" rel="noreferrer" href="https://wa.me/+918500541540?text=Hi">
-                    <BsWhatsapp />
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" rel="noreferrer" href="https://guttikondaparthasai.medium.com/">
-                    <BsMedium />
-                  </a>
-                </li>
+                {social}
               </ul>
+              <a target="_blank" rel="noreferrer" href="https://github.com/propardhu/gparthasai">Designed by Pardhu</a>
             </div>
           </Fade>
 
