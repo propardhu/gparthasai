@@ -7,8 +7,8 @@
     "contactmessage":"contactmessage",
     "email": "guttikondaparthasai@gmail.com",
     "phone": "+91-8500541540",
-    "website": "https://parthasaisresume.netlify.app/",
-    "resumedownload":"https://parthasaisresume.netlify.app/",
+    "website": "https://drive.google.com/file/d/1GwuURSqvCXKq7O9BlpYlj7pt6i1FhyU-/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1GwuURSqvCXKq7O9BlpYlj7pt6i1FhyU-/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -70,6 +70,12 @@
         "title":"Automaintion testing intern",
         "years":"May 2020 - july 2020",
         "description":"Develop and configure test automation networks and execute stability and performance tests. worked spring frame work selenium JAVA"
+      },
+      {
+        "company":"Genos Software",
+        "title":"Front End Developer intern",
+        "years":"Oct 2021 - Dec 2021",
+        "description":"Worked with latest vue3 to build mobile responsive user interface. Worked with backend team to reslove time zone problem all over the web app."
       },
       {
         "company":"Supero Software",
