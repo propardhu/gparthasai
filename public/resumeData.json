@@ -130,6 +130,21 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Spring Security JWT Authentication",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/spring-security-jwt-authentication-fc5de68d174b"
+      },
+      {
+        "title":"Apache Camel -Spring boot",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/apache-camel-spring-boot-5cc1cdd21cea"
+      },
+      {
+        "title":"WebSocket using Spring Boot java",
+        "image":"VSlogo.png",
+        "url":"https://guttikondaparthasai.medium.com/websocket-using-spring-boot-java-b95eb142f020"
+      },
+      {
         "title":"SSL auto-renew inside Nginx",
         "image":"VSlogo.png",
         "url":"https://guttikondaparthasai.medium.com/ssl-auto-renew-inside-nginx-docker-container-fd0fda1df544"
